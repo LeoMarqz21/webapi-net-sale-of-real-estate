@@ -34,7 +34,8 @@ public class PropertyRepository : IPropertyRepository
 
     public async Task DeleteAsync(int id)
     {
-        var property = await _context.Properties.FirstOrDefaultAsync(x => x.Id == id);
+        var property = await _context.Properties
+            .FirstOrDefaultAsync(x => x.Id == id);
         if(property is null)
             throw new PropertyNotFoundException("Property not found");
         _context.Properties.Remove(property);
