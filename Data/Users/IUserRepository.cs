@@ -11,7 +11,8 @@ public interface IUserRepository
     ///<returns>
     ///Returns an instance of type ReponseUserDto
     ///</returns>
-    Task<ReponseUserDto> FindByIdAsync(int id);
-    Task<ReponseUserDto> LoginAsync(RequestUserLoginDto user);
-    Task<ReponseUserDto> RegisterAsync(RequestUserRegisterDto user);
+    Task<ResponseUserDto> FindByIdAsync(string userId);
+    Task<ResponseUserDto> GetUserAsync();
+    Task<ResponseUserDto> LoginAsync(RequestUserLoginDto userLogin);
+    Task<ResponseUserDto> RegisterAsync(RequestUserRegisterDto userRegister);
 }

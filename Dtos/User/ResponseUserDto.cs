@@ -1,7 +1,7 @@
 
 namespace WebApiNet.Dtos.User;
 
-public class ReponseUserDto
+public class ResponseUserDto
 {
     public string Id { get; set; }
     public string Name { get; set; }
