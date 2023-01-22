@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "P+rOvJJ12G63+0J7C83zrIQqyjHE4qdgwBS4fq97hilArQMbaoK0r8xxMMvhuOBIesUYrwR0u61Pe2hdipmfuA==",
+  "dgSpecHash": "n3N9tK9RTNtatXrpwG/V5E9B5Rb+ZIY/h+6wUC1NOxnRvYxVINJyOcqVIM4CdSaMWbME5VoCO+jJPIL8xz7P0g==",
   "success": true,
   "projectFilePath": "C:\\AspNetProjects\\WebApiNet\\WebApiNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leoma\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\leoma\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\leoma\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\leoma\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\leoma\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
